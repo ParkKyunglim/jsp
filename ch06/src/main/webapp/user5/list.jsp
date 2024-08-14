@@ -68,8 +68,8 @@
          <th>이름</th>
          <th>성별</th>
          <th>나이</th>
-         <th>휴대폰</th>
          <th>주소</th>
+         <th>관리</th>
       </tr>
       
       <% for(User5VO vo : users){ %>

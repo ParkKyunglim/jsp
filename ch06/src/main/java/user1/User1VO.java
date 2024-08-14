@@ -5,6 +5,7 @@ public class User1VO {
 	private String uid;
 	private String name;
 	private String birth;
+	private String hp;
 	private int age;
 	
 	public String getUid() {
@@ -37,7 +38,6 @@ public class User1VO {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	private String hp;
 	
 	
 	@Override
