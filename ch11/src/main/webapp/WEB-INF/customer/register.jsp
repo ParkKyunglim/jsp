@@ -3,13 +3,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>customer1::register</title>
+	<title>customer::register</title>
 </head>
 <body>
-	<h3>customer 등록</h3>
+	<h3>Customer 등록</h3>
 	
 	<a href="/ch11/">처음으로</a>
-	<a href="/ch11/user1/list.do">목록</a>
+	<a href="/ch11/customer/list.do">목록</a>
 	
 	<form action="/ch11/customer/register.do" method="post">
 		<table border="1">
@@ -26,7 +26,7 @@
 				<td><input type="text" name="hp"/></td>
 			</tr>
 			<tr>
-			<td>주소</td>
+				<td>주소</td>
 				<td><input type="text" name="addr"/></td>
 			</tr>
 			<tr>
@@ -39,9 +39,6 @@
 				</td>
 			</tr>		
 		</table>
-	
 	</form>
-	
-	
 </body>
 </html>
