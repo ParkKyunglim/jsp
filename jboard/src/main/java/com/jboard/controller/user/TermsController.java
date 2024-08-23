@@ -2,8 +2,8 @@ package com.jboard.controller.user;
 
 import java.io.IOException;
 
-import com.jboard.dto.user.TermsDto;
-import com.jboard.service.user.TermsService;
+import com.jboard.dto.TermsDto;
+import com.jboard.service.TermsService;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -15,8 +15,8 @@ import jakarta.servlet.http.HttpServletResponse;
 @WebServlet("/user/terms.do")
 public class TermsController extends HttpServlet {
 
-	private static final long serialVersionUID = 1436448352141358328L;
-	
+	private static final long serialVersionUID = 1L;
+
 	private TermsService service = TermsService.getInstance();
 	
 	@Override
@@ -31,3 +31,4 @@ public class TermsController extends HttpServlet {
 	}
 	
 }
+

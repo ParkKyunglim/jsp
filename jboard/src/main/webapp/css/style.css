@@ -214,6 +214,11 @@ main {
     float: right;
 }
 
+.register > form .auth {
+	display: none;
+	margin-top: 4px;
+}
+
 /* 글목록 */
 .list {
     position: relative;
@@ -354,6 +359,10 @@ main {
 }
 .view > .commentList > article > div {
     text-align: right;
+}
+
+.view > .commentList > article .commentCancel {
+	display: none;
 }
 
 .view > .commentList > .empty {

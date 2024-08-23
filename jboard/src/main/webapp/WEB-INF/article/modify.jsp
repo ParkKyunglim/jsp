@@ -5,12 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>글수정</title>
-    <link rel="stylesheet" href="/jboard/css/style.css">     
+    <link rel="stylesheet" href="/jboard/css/style.css">    
 </head>
 <body>
     <div id="container">
         <%@ include file="./_header.jsp" %>
-                   
         <main>
             <section class="modify">
                 <h3>글수정</h3>
@@ -40,7 +39,7 @@
                 </article>
             </section>
         </main>
-       <%@ include file="./_footer.jsp" %>
+        <%@ include file="./_footer.jsp" %>
     </div>
 </body>
 </html>
